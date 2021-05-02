@@ -1,1 +1,1 @@
-# curly-journey
+# Streamlit App: churn classification
