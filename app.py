@@ -61,7 +61,7 @@ Uploaded CSV file must contain all of the following columns:
     st.markdown(get_table_download_link(df_uploaded), unsafe_allow_html=True)
 
 df = pd.read_csv(Path('data') / 'Churn.csv')
-st.write(f"## Or enter customer's info to predict's their chances of churning:")
+st.write(f"## Or enter a customer's info to predict their chances of churning:")
 customer_data_dict = {}
 for col in cat_cols:
     val = st.selectbox(f'Select {col}', options=df[col].unique())
