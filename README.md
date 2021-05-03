@@ -43,4 +43,4 @@ git push heroku HEAD:master
 
 The app will be accessible at https://<MY_HEROKU_APP>.herokuapp.com/ 
 
-e.g. https://my-first-streamlit-app.herokuapp.com/
+e.g. https://streamlit-app-churn.herokuapp.com/
